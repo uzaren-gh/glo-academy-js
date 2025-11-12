@@ -14,7 +14,7 @@ timer = () => {
 
     const updateTimer = () => {
         const date = new Date();
-        const deadLine = new Date('2025.11.12 09:00:00').getTime();
+        const deadLine = new Date('2025.11.14 09:00:00').getTime();
         const timeRemaining = (deadLine - date) / 1000;
 
         const days = Math.floor(timeRemaining / 60 / 60 / 24);
